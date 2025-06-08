@@ -7,5 +7,5 @@ services:
     plan: free
     envVars:
       DJANGO_SETTINGS_MODULE: whatsappchatbot.settings
-      WHATSAPP_TOKEN: your_meta_token
-      PHONE_NUMBER_ID: your_meta_phone_id
+      WHATSAPP_TOKEN: EAAI73aaseIABOzqDqrQl6Lh8LNqitLv96FqSnQF21XSZBfhGfM8c3ejNrpawYnz0Dpav2vf3ZCrGAgcr6ldbHclXkhwRTq6TFsGF45xOZC9azOH449S1kFaUxWZCtHxvHMed64yi8puZBXHaaW0QZB1c2QAx1fBrd6TmOqpRZB7tTawr5PbckDdRf2a0zkttlwVwZAVKOm6s6C3NPHE9B8bLzHS6NfZCx4tAZD
+      PHONE_NUMBER_ID: 662993340220587
