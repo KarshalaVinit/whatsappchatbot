@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: whatsapp-chatbot
+    env: python
+    buildCommand: "./build.sh"
+    startCommand: gunicorn whatsapp-chatbot.wsgi:application
+    plan: free
+    envVars:
+      DJANGO_SETTINGS_MODULE: whatsappchatbot.settings
+      WHATSAPP_TOKEN: your_meta_token
+      PHONE_NUMBER_ID: your_meta_phone_id
